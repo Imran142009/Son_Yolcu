@@ -1,0 +1,30 @@
+İlk Kar|İlk kar yağarken kapı çalıyor.|İlk Qar|İlk qar yağanda qapı döyülür.
+Eski Defter|Masadaki defterin ilk sayfası açık.|Köhnə Dəftər|Masadakı dəftərin ilk səhifəsi açıqdır.
+Sisli Geçit|Yolun ucu bu gece görünmüyor.|Dumanlı Keçid|Yolun ucu bu gecə görünmür.
+Uzun Yol|Yolcular beklediklerinden geç geliyor.|Uzun Yol|Yolçular gözlədiklərindən gec gəlirlər.
+Soğuk Akşam|Soba akşamdan beri yavaş yanıyor.|Soyuq Axşam|Soba axşamdan bəri zəif yanır.
+Kayıp Anahtar|Bir anahtarın yeri kimseye söylenmemiş.|İtmiş Açar|Bir açarın yeri heç kimə deyilməyib.
+Kapalı Yol|Geçit kapanınca herkes aynı kapıya yöneliyor.|Bağlı Yol|Keçid bağlananda hamı eyni qapıya yönəlir.
+İki İz|Karda yan yana iki ayak izi var.|İki İz|Qarda yan-yana iki ayaq izi var.
+Sessiz Zil|Masanın üstündeki zil bu gece çalmıyor.|Səssiz Zəng|Masanın üstündəki zəng bu gecə çalmır.
+Dağda Bir Işık|Uzakta tek bir pencere yanıyor.|Dağda Bir İşıq|Uzaqda tək bir pəncərə yanır.
+Son Otobüs|Otobüs köyden ayrıldıktan sonra kar başladı.|Son Avtobus|Avtobus kənddən ayrılandan sonra qar başladı.
+Eski Para|Bir yolcu avucunda delik bir para taşıyor.|Köhnə Pul|Bir yolçu ovcunda deşik pul daşıyır.
+Boş Oda|Çizelgede boş görünen odadan ses geliyor.|Boş Otaq|Siyahıda boş görünən otaqdan səs gəlir.
+Unutulan Palto|Askıda sahibi bilinmeyen bir palto var.|Unudulan Palto|Asılqanda sahibi bilinməyən palto var.
+Gece Radyosu|Radyo bu gece iki ayrı haber veriyor.|Gecə Radiosu|Radio bu gecə iki ayrı xəbər verir.
+Yanlış İsim|Bir etiketin üzerindeki isim değişmiş.|Yanlış Ad|Bir etiketin üzərindəki ad dəyişib.
+İki Tanık|Aynı yolu anlatan iki yolcu kapıda.|İki Şahid|Eyni yolu danışan iki yolçu qapıdadır.
+Kırık Pusula|Bir pusulanın ibresi kuzeyi göstermiyor.|Qırıq Kompas|Bir kompasın əqrəbi şimalı göstərmir.
+İnce Buz|Sabaha kadar yola çıkmak kolay değil.|Nazik Buz|Səhərə qədər yola çıxmaq asan deyil.
+Eski Patika|Bir misafir kapalı bir patikayı soruyor.|Köhnə Cığır|Bir qonaq bağlı cığırı soruşur.
+Çift Düğüm|İki çantada aynı düğüm görülüyor.|İki Düyün|İki çantada eyni düyün görünür.
+Kapalı Çekmece|Çekmecenin kilidi bu gece zor dönüyor.|Bağlı Siyirmə|Siyirmənin qıfılı bu gecə çətin dönür.
+Solgun Tabela|Dışarıdaki tabelanın yazısı silinmiş.|Solğun Lövhə|Çöldəki lövhənin yazısı silinib.
+Son Mektup|Posta çantasında pulsuz bir mektup var.|Son Məktub|Poçt çantasında pulsuz məktub var.
+Yedi Numara|Bir yolcu çizelgede olmayan odayı istiyor.|Yeddi Nömrə|Bir yolçu siyahıda olmayan otağı istəyir.
+Kuzey Rüzgârı|Rüzgâr kuzey yolundan kar taşıyor.|Şimal Küləyi|Külək şimal yolundan qar gətirir.
+Azalan Odun|Odunluğu sabah olmadan doldurmak gerek.|Azalan Odun|Odunluğu səhər olmadan doldurmaq lazımdır.
+Sessiz Geçit|Yolda bu akşam hiç araç duyulmadı.|Səssiz Keçid|Yolda bu axşam heç maşın eşidilmədi.
+Uzun Fırtına|Fırtına beklenenden uzun sürüyor.|Uzun Fırtına|Fırtına gözləniləndən uzun çəkir.
+Son Yolcu|Kapı bir kez daha çalıyor.|Son Yolçu|Qapı bir dəfə də döyülür.

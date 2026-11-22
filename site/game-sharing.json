@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 2,
+  "publicationOrigin": "https://sonyolcu-kaiq6zfc.manus.game",
+  "title": "Son Yolcu",
+  "description": "Karlı bir gecede, dağ otelinin kapısında kime güveneceksin?",
+  "defaultCaptions": {
+    "x": "Son Yolcu: Bir gece. Bir kapı. Bir karar.",
+    "facebook": "Son Yolcu: Bir gece. Bir kapı. Bir karar.",
+    "reddit": "Son Yolcu: Bir gece. Bir kapı. Bir karar.",
+    "discord": "Son Yolcu: Bir gece. Bir kapı. Bir karar."
+  },
+  "assets": {
+    "og": {
+      "digest": "sha256:d4f520b9e18502a3cca50cab7c528151fa32054157fe81f47ae1319776bf900f",
+      "path": "share/d4f520b9e18502a3cca50cab7c528151fa32054157fe81f47ae1319776bf900f.png",
+      "mime": "image/png",
+      "width": 2560,
+      "height": 1440,
+      "sizeBytes": 2970155,
+      "sourcePath": "assets/son-yolcu/share-cover.png"
+    },
+    "favicon": {
+      "digest": "sha256:849367363dc55ef22125cc8e159f5899ebf515ebf29f8c55cd72b80bfee0df6a",
+      "path": "share/849367363dc55ef22125cc8e159f5899ebf515ebf29f8c55cd72b80bfee0df6a.png",
+      "mime": "image/png",
+      "width": 512,
+      "height": 512,
+      "sizeBytes": 64508,
+      "sourcePath": "assets/son-yolcu/favicon.png"
+    }
+  }
+}

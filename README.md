@@ -1,4 +1,6 @@
-# Generic Game Template
+# Son Yolcu
+
+Game-specific run, web export, Android packaging and current limitations are documented in [SON-YOLCU-README.md](SON-YOLCU-README.md).
 
 This versioned source is owned by the Webdev Addon. Use the installed Game workflow for initialization, preview, release and publishing. Matching gameplay source: template-provenance.json. Existing projects are never overwritten by a new starter.
 

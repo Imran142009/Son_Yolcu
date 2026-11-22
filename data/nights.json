@@ -1,0 +1,182 @@
+[
+  {
+    "title": "İlk Kar",
+    "intro": "İlk kar yağarken kapı çalıyor.",
+    "title_az": "İlk Qar",
+    "intro_az": "İlk qar yağanda qapı döyülür."
+  },
+  {
+    "title": "Eski Defter",
+    "intro": "Masadaki defterin ilk sayfası açık.",
+    "title_az": "Köhnə Dəftər",
+    "intro_az": "Masadakı dəftərin ilk səhifəsi açıqdır."
+  },
+  {
+    "title": "Sisli Geçit",
+    "intro": "Yolun ucu bu gece görünmüyor.",
+    "title_az": "Dumanlı Keçid",
+    "intro_az": "Yolun ucu bu gecə görünmür."
+  },
+  {
+    "title": "Uzun Yol",
+    "intro": "Yolcular beklediklerinden geç geliyor.",
+    "title_az": "Uzun Yol",
+    "intro_az": "Yolçular gözlədiklərindən gec gəlirlər."
+  },
+  {
+    "title": "Soğuk Akşam",
+    "intro": "Soba akşamdan beri yavaş yanıyor.",
+    "title_az": "Soyuq Axşam",
+    "intro_az": "Soba axşamdan bəri zəif yanır."
+  },
+  {
+    "title": "Kayıp Anahtar",
+    "intro": "Bir anahtarın yeri kimseye söylenmemiş.",
+    "title_az": "İtmiş Açar",
+    "intro_az": "Bir açarın yeri heç kimə deyilməyib."
+  },
+  {
+    "title": "Kapalı Yol",
+    "intro": "Geçit kapanınca herkes aynı kapıya yöneliyor.",
+    "title_az": "Bağlı Yol",
+    "intro_az": "Keçid bağlananda hamı eyni qapıya yönəlir."
+  },
+  {
+    "title": "İki İz",
+    "intro": "Karda yan yana iki ayak izi var.",
+    "title_az": "İki İz",
+    "intro_az": "Qarda yan-yana iki ayaq izi var."
+  },
+  {
+    "title": "Sessiz Zil",
+    "intro": "Masanın üstündeki zil bu gece çalmıyor.",
+    "title_az": "Səssiz Zəng",
+    "intro_az": "Masanın üstündəki zəng bu gecə çalmır."
+  },
+  {
+    "title": "Dağda Bir Işık",
+    "intro": "Uzakta tek bir pencere yanıyor.",
+    "title_az": "Dağda Bir İşıq",
+    "intro_az": "Uzaqda tək bir pəncərə yanır."
+  },
+  {
+    "title": "Son Otobüs",
+    "intro": "Otobüs köyden ayrıldıktan sonra kar başladı.",
+    "title_az": "Son Avtobus",
+    "intro_az": "Avtobus kənddən ayrılandan sonra qar başladı."
+  },
+  {
+    "title": "Eski Para",
+    "intro": "Bir yolcu avucunda delik bir para taşıyor.",
+    "title_az": "Köhnə Pul",
+    "intro_az": "Bir yolçu ovcunda deşik pul daşıyır."
+  },
+  {
+    "title": "Boş Oda",
+    "intro": "Çizelgede boş görünen odadan ses geliyor.",
+    "title_az": "Boş Otaq",
+    "intro_az": "Siyahıda boş görünən otaqdan səs gəlir."
+  },
+  {
+    "title": "Unutulan Palto",
+    "intro": "Askıda sahibi bilinmeyen bir palto var.",
+    "title_az": "Unudulan Palto",
+    "intro_az": "Asılqanda sahibi bilinməyən palto var."
+  },
+  {
+    "title": "Gece Radyosu",
+    "intro": "Radyo bu gece iki ayrı haber veriyor.",
+    "title_az": "Gecə Radiosu",
+    "intro_az": "Radio bu gecə iki ayrı xəbər verir."
+  },
+  {
+    "title": "Yanlış İsim",
+    "intro": "Bir etiketin üzerindeki isim değişmiş.",
+    "title_az": "Yanlış Ad",
+    "intro_az": "Bir etiketin üzərindəki ad dəyişib."
+  },
+  {
+    "title": "İki Tanık",
+    "intro": "Aynı yolu anlatan iki yolcu kapıda.",
+    "title_az": "İki Şahid",
+    "intro_az": "Eyni yolu danışan iki yolçu qapıdadır."
+  },
+  {
+    "title": "Kırık Pusula",
+    "intro": "Bir pusulanın ibresi kuzeyi göstermiyor.",
+    "title_az": "Qırıq Kompas",
+    "intro_az": "Bir kompasın əqrəbi şimalı göstərmir."
+  },
+  {
+    "title": "İnce Buz",
+    "intro": "Sabaha kadar yola çıkmak kolay değil.",
+    "title_az": "Nazik Buz",
+    "intro_az": "Səhərə qədər yola çıxmaq asan deyil."
+  },
+  {
+    "title": "Eski Patika",
+    "intro": "Bir misafir kapalı bir patikayı soruyor.",
+    "title_az": "Köhnə Cığır",
+    "intro_az": "Bir qonaq bağlı cığırı soruşur."
+  },
+  {
+    "title": "Çift Düğüm",
+    "intro": "İki çantada aynı düğüm görülüyor.",
+    "title_az": "İki Düyün",
+    "intro_az": "İki çantada eyni düyün görünür."
+  },
+  {
+    "title": "Kapalı Çekmece",
+    "intro": "Çekmecenin kilidi bu gece zor dönüyor.",
+    "title_az": "Bağlı Siyirmə",
+    "intro_az": "Siyirmənin qıfılı bu gecə çətin dönür."
+  },
+  {
+    "title": "Solgun Tabela",
+    "intro": "Dışarıdaki tabelanın yazısı silinmiş.",
+    "title_az": "Solğun Lövhə",
+    "intro_az": "Çöldəki lövhənin yazısı silinib."
+  },
+  {
+    "title": "Son Mektup",
+    "intro": "Posta çantasında pulsuz bir mektup var.",
+    "title_az": "Son Məktub",
+    "intro_az": "Poçt çantasında pulsuz məktub var."
+  },
+  {
+    "title": "Yedi Numara",
+    "intro": "Bir yolcu çizelgede olmayan odayı istiyor.",
+    "title_az": "Yeddi Nömrə",
+    "intro_az": "Bir yolçu siyahıda olmayan otağı istəyir."
+  },
+  {
+    "title": "Kuzey Rüzgârı",
+    "intro": "Rüzgâr kuzey yolundan kar taşıyor.",
+    "title_az": "Şimal Küləyi",
+    "intro_az": "Külək şimal yolundan qar gətirir."
+  },
+  {
+    "title": "Azalan Odun",
+    "intro": "Odunluğu sabah olmadan doldurmak gerek.",
+    "title_az": "Azalan Odun",
+    "intro_az": "Odunluğu səhər olmadan doldurmaq lazımdır."
+  },
+  {
+    "title": "Sessiz Geçit",
+    "intro": "Yolda bu akşam hiç araç duyulmadı.",
+    "title_az": "Səssiz Keçid",
+    "intro_az": "Yolda bu axşam heç maşın eşidilmədi."
+  },
+  {
+    "title": "Uzun Fırtına",
+    "intro": "Fırtına beklenenden uzun sürüyor.",
+    "title_az": "Uzun Fırtına",
+    "intro_az": "Fırtına gözləniləndən uzun çəkir."
+  },
+  {
+    "title": "Son Yolcu",
+    "intro": "Kapı bir kez daha çalıyor.",
+    "title_az": "Son Yolçu",
+    "intro_az": "Qapı bir dəfə də döyülür."
+  }
+]

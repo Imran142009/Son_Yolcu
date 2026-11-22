@@ -39,7 +39,7 @@ func _load() -> void:
 	if version not in [1, SAVE_VERSION]:
 		return
 	var locale := str(candidate.get("locale", ""))
-	_data.locale = locale if locale in ["en", "zh-CN"] else ""
+	_data.locale = locale if locale in ["tr", "az"] else ""
 	_data.tutorial_version = (
 		TUTORIAL_VERSION if version == 1 and bool(candidate.get("tutorial_completed", false))
 		else clampi(int(candidate.get("tutorial_version", 0)), 0, TUTORIAL_VERSION)
@@ -78,7 +78,7 @@ func get_locale() -> String:
 
 
 func set_locale(locale: String) -> void:
-	if locale not in ["en", "zh-CN"]:
+	if locale not in ["tr", "az"]:
 		return
 	_data.locale = locale
 	save()

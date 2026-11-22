@@ -1,0 +1,680 @@
+{
+  "chapters": [
+    {
+      "title": "İlk Kar",
+      "clock": "18:00",
+      "intro": "İlk ziyaretçiler kapıyı çalıyor.",
+      "title_az": "İlk qar",
+      "intro_az": "İlk qonaqlar qapını döyür."
+    },
+    {
+      "title": "Kapalı Yol",
+      "clock": "20:00",
+      "intro": "Geçitten gelen sesler azaldı.",
+      "title_az": "Bağlı yol",
+      "intro_az": "Keçiddən gələn səslər azalıb."
+    },
+    {
+      "title": "Eski Para",
+      "clock": "22:00",
+      "intro": "Masada unutulan bir iz var.",
+      "title_az": "Köhnə pul",
+      "intro_az": "Masada unudulmuş bir iz var."
+    },
+    {
+      "title": "Gece Radyosu",
+      "clock": "00:00",
+      "intro": "Radyo bir anlığına eski bir kaydı açıyor.",
+      "title_az": "Gecə radiosu",
+      "intro_az": "Radio bir anlıq köhnə bir yazını açır."
+    },
+    {
+      "title": "Soğuk Saatler",
+      "clock": "02:00",
+      "intro": "Odunlar yavaş yavaş azalıyor.",
+      "title_az": "Soyuq saatlar",
+      "intro_az": "Odunlar yavaş-yavaş azalır."
+    },
+    {
+      "title": "Yedi Numaralı Oda",
+      "clock": "03:30",
+      "intro": "Çizelgede üstü çizilmiş bir satır var.",
+      "title_az": "Yeddi nömrəli otaq",
+      "intro_az": "Cədvəldə üstündən xətt çəkilmiş bir sətir var."
+    },
+    {
+      "title": "Gün Ağarmadan",
+      "clock": "05:00",
+      "intro": "Kapının önündeki kar yükseldi.",
+      "title_az": "Sübh açılmamış",
+      "intro_az": "Qapının önündəki qar qalxıb."
+    },
+    {
+      "title": "Sabah",
+      "clock": "06:00",
+      "intro": "Yoldan ilk ışık görünüyor.",
+      "title_az": "Səhər",
+      "intro_az": "Yoldan ilk işıq görünür."
+    }
+  ],
+  "rules": [
+    {
+      "text": "Bu gece: çocukları dışarıda bırakma.",
+      "kind": "child",
+      "text_az": "Bu gecə: uşaqları çöldə qoyma."
+    },
+    {
+      "text": "Bu gece: hastaları önce içeri al.",
+      "kind": "sick",
+      "text_az": "Bu gecə: xəstələri əvvəl içəri al."
+    },
+    {
+      "text": "Bu gece: yola yalnız çıkanlara bir soru sor.",
+      "kind": "question",
+      "text_az": "Bu gecə: yola tək çıxanlara bir sual ver."
+    },
+    {
+      "text": "Bu gece: yolculardan bir ayrıntı öğrenmeden karar verme.",
+      "kind": "question",
+      "text_az": "Bu gecə: səyahətçilərdən bir təfərrüat öyrənmədən qərar vermə."
+    },
+    {
+      "text": "Bu gece: okul yolcularına öncelik ver.",
+      "kind": "teacher",
+      "text_az": "Bu gecə: məktəbə gedənlərə üstünlük ver."
+    },
+    {
+      "text": "Bu gece: doktorlara kapıyı açık tut.",
+      "kind": "doctor",
+      "text_az": "Bu gecə: həkimlər üçün qapını açıq saxla."
+    },
+    {
+      "text": "Bu gece: yolu tanıyanları geri çevirme.",
+      "kind": "guide",
+      "text_az": "Bu gecə: yolu tanıyanları geri qaytarma."
+    },
+    {
+      "text": "Bu gece: aileleri mümkünse ayırma.",
+      "kind": "family",
+      "text_az": "Bu gecə: mümkünsə, ailələri ayırma."
+    },
+    {
+      "text": "Bu gece: kayıp çocuklara yardım et.",
+      "kind": "child",
+      "text_az": "Bu gecə: itkin uşaqlara kömək et."
+    },
+    {
+      "text": "Bu gece: soğuktan hastalananlara yer ayır.",
+      "kind": "sick",
+      "text_az": "Bu gecə: soyuqdan xəstələnənlərə yer ayır."
+    },
+    {
+      "text": "Bu gece: defterine bir cevap yazmadan karar verme.",
+      "kind": "question",
+      "text_az": "Bu gecə: dəftərinə cavab yazmadan qərar vermə."
+    },
+    {
+      "text": "Bu gece: öğretmenleri geri çevirme.",
+      "kind": "teacher",
+      "text_az": "Bu gecə: müəllimləri geri çevirmə."
+    },
+    {
+      "text": "Bu gece: sağlık çalışanlarına öncelik ver.",
+      "kind": "doctor",
+      "text_az": "Bu gecə: tibb işçilərinə üstünlük ver."
+    },
+    {
+      "text": "Bu gece: yol bilenlere bir oda ayır.",
+      "kind": "guide",
+      "text_az": "Bu gecə: yolu tanıyanlara bir otaq ayır."
+    },
+    {
+      "text": "Bu gece: bebekli yolcuları bekletme.",
+      "kind": "family",
+      "text_az": "Bu gecə: körpəli yolçuları gözlətmə."
+    },
+    {
+      "text": "Bu gece: küçük misafirleri içeri al.",
+      "kind": "child",
+      "text_az": "Bu gecə: balaca qonaqları içəri al."
+    },
+    {
+      "text": "Bu gece: yaralılara kapıyı kapatma.",
+      "kind": "sick",
+      "text_az": "Bu gecə: yaralıların üzünə qapını bağlama."
+    },
+    {
+      "text": "Bu gece: önce soru sor, sonra karar ver.",
+      "kind": "question",
+      "text_az": "Bu gecə: əvvəl sual ver, sonra qərar ver."
+    },
+    {
+      "text": "Bu gece: öğrencilerin ve öğretmenlerin yolunu kesme.",
+      "kind": "teacher",
+      "text_az": "Bu gecə: şagirdlərin və müəllimlərin yolunu kəsmə."
+    },
+    {
+      "text": "Bu gece: hastalara bakabilecekleri içeri al.",
+      "kind": "doctor",
+      "text_az": "Bu gecə: xəstələrə baxa bilənləri içəri al."
+    },
+    {
+      "text": "Bu gece: eski yolu bilenleri dinle.",
+      "kind": "guide",
+      "text_az": "Bu gecə: köhnə yolu tanıyanları dinlə."
+    },
+    {
+      "text": "Bu gece: birlikte gelen ailelere öncelik ver.",
+      "kind": "family",
+      "text_az": "Bu gecə: birlikdə gələn ailələrə üstünlük ver."
+    },
+    {
+      "text": "Bu gece: çocuklar kapıda kalmasın.",
+      "kind": "child",
+      "text_az": "Bu gecə: uşaqlar qapıda qalmasın."
+    },
+    {
+      "text": "Bu gece: bandajlı yolcuları geri çevirme.",
+      "kind": "sick",
+      "text_az": "Bu gecə: sarğılı yolçuları geri çevirmə."
+    },
+    {
+      "text": "Bu gece: herkesin nereden geldiğini sor.",
+      "kind": "question",
+      "text_az": "Bu gecə: hər kəsdən haradan gəldiyini soruş."
+    },
+    {
+      "text": "Bu gece: kitap taşıyanlara yardım et.",
+      "kind": "teacher",
+      "text_az": "Bu gecə: kitab daşıyanlara kömək et."
+    },
+    {
+      "text": "Bu gece: doktorun bir odaya ihtiyacı olabilir.",
+      "kind": "doctor",
+      "text_az": "Bu gecə: həkimə bir otaq lazım ola bilər."
+    },
+    {
+      "text": "Bu gece: rehberleri dışarıda bırakma.",
+      "kind": "guide",
+      "text_az": "Bu gecə: bələdçiləri çöldə qoyma."
+    },
+    {
+      "text": "Bu gece: aileleri sıcak tut.",
+      "kind": "family",
+      "text_az": "Bu gecə: ailələri isti saxla."
+    },
+    {
+      "text": "Bu gece: çocukları kapıda bekletme.",
+      "kind": "child",
+      "text_az": "Bu gecə: uşaqları qapıda gözlətmə."
+    },
+    {
+      "text": "Bu gece: hasta yolculara öncelik ver.",
+      "kind": "sick",
+      "text_az": "Bu gecə: xəstə yolçulara üstünlük ver."
+    },
+    {
+      "text": "Bu gece: çantada ne olduğunu sor.",
+      "kind": "question",
+      "text_az": "Bu gecə: çantada nə olduğunu soruş."
+    },
+    {
+      "text": "Bu gece: okuldan gelenlere yer ayır.",
+      "kind": "teacher",
+      "text_az": "Bu gecə: məktəbdən gələnlərə yer ayır."
+    },
+    {
+      "text": "Bu gece: sağlıkçılara kapıyı aç.",
+      "kind": "doctor",
+      "text_az": "Bu gecə: tibb işçilərinin üzünə qapını aç."
+    },
+    {
+      "text": "Bu gece: dağ yolunu bilenlere yer ver.",
+      "kind": "guide",
+      "text_az": "Bu gecə: dağ yolunu tanıyanlara yer ver."
+    },
+    {
+      "text": "Bu gece: birlikte gelenleri ayırma.",
+      "kind": "family",
+      "text_az": "Bu gecə: birlikdə gələnləri ayırma."
+    },
+    {
+      "text": "Bu gece: üşüyen çocukları içeri al.",
+      "kind": "child",
+      "text_az": "Bu gecə: üşüyən uşaqları içəri al."
+    },
+    {
+      "text": "Bu gece: hasta görünenleri dinle.",
+      "kind": "sick",
+      "text_az": "Bu gecə: xəstə görünənləri dinlə."
+    },
+    {
+      "text": "Bu gece: her misafire bir soru hakkı ver.",
+      "kind": "question",
+      "text_az": "Bu gecə: hər qonağa bir sual vermək haqqı ver."
+    },
+    {
+      "text": "Bu gece: öğretmenlere bir oda bul.",
+      "kind": "teacher",
+      "text_az": "Bu gecə: müəllimlərə bir otaq tap."
+    }
+  ],
+  "radio": [
+    "Radyo: Kuzey yolunda kırmızı atkılı biri görülmüş.",
+    "Radyo: Geçit gece yarısı kapanabilir.",
+    "Radyo: Eski yolun haritası köyde saklanıyor.",
+    "Radyo: On yıl önce de bu saatte kar başlamıştı.",
+    "Radyo: Sabah ilk araç köyden yola çıkacak.",
+    "Radyo: Bu haber eski olabilir. Yolu yeniden kontrol edin."
+  ],
+  "questions": [
+    "Nereden geldiniz?",
+    "Sizi kim gönderdi?",
+    "Çantanızda ne var?"
+  ],
+  "storyPieces": [
+    "Tabela değişmişti; masadaki zil aynı kalmıştı.",
+    "On yıl önce köy yolu yine kapanmıştı.",
+    "Çekmece boştu. İçinde bir şeyin açık renkli izi kalmıştı.",
+    "Radyo eski bir hava raporu okudu ve sustu.",
+    "Bir hemşire o gece kapıdan geri gönderilmişti.",
+    "Yedi numaralı oda çizelgeden silinmişti.",
+    "Notta 'Gitmedi. Kalması istendi.' yazıyordu.",
+    "Rahim yolcuları eski patikadan çıkarmış, kendisi dönememişti."
+  ],
+  "upgrades": [
+    {
+      "id": "magnifier1",
+      "title": "Ek büyüteç I",
+      "desc": "Her bölümde bir ek inceleme.",
+      "cost": 3,
+      "title_az": "Əlavə böyüdücü I",
+      "desc_az": "Hər bölümdə bir əlavə araşdırma."
+    },
+    {
+      "id": "wood1",
+      "title": "Biraz odun",
+      "desc": "Geceye 8 ek odunla başla.",
+      "cost": 4,
+      "title_az": "Bir az odun",
+      "desc_az": "Gecəyə 8 əlavə odunla başla."
+    },
+    {
+      "id": "trust1",
+      "title": "Sıcak karşılama",
+      "desc": "Geceye 5 ek güvenle başla.",
+      "cost": 4,
+      "title_az": "İsti qarşılama",
+      "desc_az": "Gecəyə 5 əlavə etibarla başla."
+    },
+    {
+      "id": "second",
+      "title": "İkinci bakış",
+      "desc": "Son misafirin öyküsünü yeniden oku.",
+      "cost": 5,
+      "title_az": "İkinci baxış",
+      "desc_az": "Son qonağın hekayəsini yenidən oxu."
+    },
+    {
+      "id": "lantern",
+      "title": "İpucu ışığı",
+      "desc": "Her gece bir şüpheli ayrıntıyı ücretsiz gör.",
+      "cost": 6,
+      "title_az": "İpucu işığı",
+      "desc_az": "Hər gecə şübhəli bir detalı pulsuz gör."
+    },
+    {
+      "id": "notebook",
+      "title": "Geniş defter",
+      "desc": "Görülen ipuçları deftere otomatik yazılır.",
+      "cost": 6,
+      "title_az": "Geniş dəftər",
+      "desc_az": "Görülən ipucları avtomatik dəftərə yazılır."
+    },
+    {
+      "id": "blanket",
+      "title": "Yün battaniye",
+      "desc": "Tipide odun kaybını yavaşlatır.",
+      "cost": 7,
+      "title_az": "Yun yorğan",
+      "desc_az": "Çovğunda odun itkisini azaldır."
+    },
+    {
+      "id": "shield",
+      "title": "Güven kalkanı",
+      "desc": "İlk büyük güven kaybını yarıya indirir.",
+      "cost": 8,
+      "title_az": "Etibar sipəri",
+      "desc_az": "İlk böyük etibar itkisini yarıya endirir."
+    },
+    {
+      "id": "roomkey",
+      "title": "Yedek anahtar",
+      "desc": "Geceye biraz daha fazla oda ile başla.",
+      "cost": 8,
+      "title_az": "Ehtiyat açar",
+      "desc_az": "Gecəyə bir az daha çox otaqla başla."
+    },
+    {
+      "id": "peek",
+      "title": "Aralık kapı",
+      "desc": "Sıradaki misafirin ilk cümlesini gör.",
+      "cost": 9,
+      "title_az": "Aralı qapı",
+      "desc_az": "Növbəti qonağın ilk cümləsini gör."
+    },
+    {
+      "id": "undo",
+      "title": "Geri adım",
+      "desc": "Her gece son kararı bir kez geri al.",
+      "cost": 10,
+      "title_az": "Geri addım",
+      "desc_az": "Hər gecə son qərarını bir dəfə geri götür."
+    },
+    {
+      "id": "magnifier2",
+      "title": "Ek büyüteç II",
+      "desc": "Her bölümde bir ek inceleme daha.",
+      "cost": 10,
+      "title_az": "Əlavə böyüdücü II",
+      "desc_az": "Hər bölümdə bir əlavə araşdırma."
+    },
+    {
+      "id": "wood2",
+      "title": "Odun çuvalı",
+      "desc": "Geceye 8 ek odunla başla.",
+      "cost": 11,
+      "title_az": "Odun kisəsi",
+      "desc_az": "Gecəyə 8 əlavə odunla başla."
+    },
+    {
+      "id": "radio",
+      "title": "Gece radyosu",
+      "desc": "Bir sonraki olayın adını önceden gösterir.",
+      "cost": 11,
+      "title_az": "Gecə radiosu",
+      "desc_az": "Növbəti hadisənin adını əvvəlcədən göstərir."
+    },
+    {
+      "id": "wait",
+      "title": "Biraz daha zaman",
+      "desc": "Kapıdaki bekleme süresini uzatır.",
+      "cost": 12,
+      "title_az": "Bir az daha vaxt",
+      "desc_az": "Qapıdakı gözləmə müddətini uzadır."
+    },
+    {
+      "id": "question",
+      "title": "Bir soru daha",
+      "desc": "Her misafire iki soru sorabilirsin.",
+      "cost": 12,
+      "title_az": "Bir sual da",
+      "desc_az": "Hər qonağa iki sual verə bilərsən."
+    },
+    {
+      "id": "rulehint",
+      "title": "Kural notu",
+      "desc": "Kuralın ilgilendiği misafirleri belirtir.",
+      "cost": 13,
+      "title_az": "Qayda qeydi",
+      "desc_az": "Qaydanın maraqlandığı qonaqları göstərir."
+    },
+    {
+      "id": "dog",
+      "title": "Dost köpek",
+      "desc": "Bir hırsız geldiğinde gecede bir kez uyarır.",
+      "cost": 14,
+      "title_az": "Mehriban it",
+      "desc_az": "Oğru gələndə gecədə bir dəfə xəbərdarlıq edir."
+    },
+    {
+      "id": "detector",
+      "title": "İki isim",
+      "desc": "Son iki misafirin bağlantısını gösterir.",
+      "cost": 15,
+      "title_az": "İki ad",
+      "desc_az": "Son iki qonağın əlaqəsini göstərir."
+    },
+    {
+      "id": "clear_radio",
+      "title": "Temiz sinyal",
+      "desc": "Eski radyo haberlerini belirtir.",
+      "cost": 15,
+      "title_az": "Təmiz siqnal",
+      "desc_az": "Köhnə radio xəbərlərini göstərir."
+    },
+    {
+      "id": "masterkey",
+      "title": "Ana anahtar",
+      "desc": "Bir olayda bir misafirin ipucuna bak.",
+      "cost": 17,
+      "title_az": "Baş açar",
+      "desc_az": "Bir hadisə zamanı bir qonağın ipucuna bax."
+    },
+    {
+      "id": "trust2",
+      "title": "Açık kapı",
+      "desc": "Geceye 8 ek güvenle başla.",
+      "cost": 18,
+      "title_az": "Açıq qapı",
+      "desc_az": "Gecəyə 8 əlavə inamla başla."
+    },
+    {
+      "id": "magnifier3",
+      "title": "Ek büyüteç III",
+      "desc": "Her bölümde bir ek inceleme daha.",
+      "cost": 20,
+      "title_az": "Əlavə böyüdücü III",
+      "desc_az": "Hər bölümdə bir əlavə yoxlama."
+    },
+    {
+      "id": "storm",
+      "title": "Uzun kış",
+      "desc": "Gizli fırtına için güven eşiğini biraz düşürür.",
+      "cost": 22,
+      "title_az": "Uzun qış",
+      "desc_az": "Gizli fırtına üçün inam həddini bir az aşağı salır."
+    },
+    {
+      "id": "wood3",
+      "title": "Odun deposu",
+      "desc": "Geceye 10 ek odunla başla.",
+      "cost": 24,
+      "title_az": "Odun anbarı",
+      "desc_az": "Gecəyə 10 əlavə odunla başla."
+    },
+    {
+      "id": "morning",
+      "title": "Sabah payı",
+      "desc": "Kusursuz gecede puanı iki katına çıkarır.",
+      "cost": 30,
+      "title_az": "Səhər payı",
+      "desc_az": "Qüsursuz gecədə xalı ikiqat artırır."
+    }
+  ],
+  "endings": [
+    {
+      "id": "full",
+      "title": "Dolu Ev",
+      "text": "Son gelen için boş oda kalmadı. Koridorlar sessiz ama kalabalıktı. Sabah herkes yorgun uyandı.",
+      "rarity": "failure",
+      "title_az": "Dolu Ev",
+      "text_az": "Son gələn üçün boş otaq qalmadı. Dəhlizlər sakit, amma insanlarla dolu idi. Səhər hamı yorğun oyandı."
+    },
+    {
+      "id": "cold",
+      "title": "Soğuk Gece",
+      "text": "Odun sabaha varmadan bitti. Herkes battaniyelere sarıldı. Kimse bir şey söylemedi.",
+      "rarity": "failure",
+      "title_az": "Soyuq Gecə",
+      "text_az": "Odun səhərə çatmamış qurtardı. Hamı yorğanlara büründü. Heç kim heç nə demədi."
+    },
+    {
+      "id": "trust",
+      "title": "Kırılan Güven",
+      "text": "Misafirler artık seni dinlemiyordu. Biri kapıyı açıp kara çıktı. Sabaha kadar masanın başında bekledin.",
+      "rarity": "failure",
+      "title_az": "Qırılan Etibar",
+      "text_az": "Qonaqlar artıq sənə qulaq asmırdı. Biri qapını açıb qarın içinə çıxdı. Səhərə qədər masanın başında gözlədin."
+    },
+    {
+      "id": "empty",
+      "title": "Boş Salon",
+      "text": "Gece güvenli geçti. Otel neredeyse boş kaldı. Zilin sesi uzun süre duyulmadı.",
+      "rarity": "failure",
+      "title_az": "Boş Zal",
+      "text_az": "Gecə təhlükəsiz keçdi. Otel, demək olar ki, boş qaldı. Zəngin səsi uzun müddət eşidilmədi."
+    },
+    {
+      "id": "spoon",
+      "title": "Gümüş Kaşık",
+      "text": "Sabah kasayı açtığında gümüş kaşık yoktu. Kapının önünde yeni ayak izleri vardı. Kimse bir şey görmediğini söyledi.",
+      "rarity": "failure",
+      "title_az": "Gümüş Qaşıq",
+      "text_az": "Səhər seyfi açanda gümüş qaşıq yox idi. Qapının önündə təzə ayaq izləri vardı. Heç kim heç nə görmədiyini dedi."
+    },
+    {
+      "id": "wrong",
+      "title": "Yanlış Misafir",
+      "text": "Suçladığın kişinin masum olduğu anlaşıldı. O ise sabah olmadan ayrılmıştı. Defterde yalnızca adı kaldı.",
+      "rarity": "failure",
+      "title_az": "Yanlış Qonaq",
+      "text_az": "İttiham etdiyin şəxsin günahsız olduğu məlum oldu. O isə səhər açılmamış getmişdi. Dəftərdə yalnız adı qaldı."
+    },
+    {
+      "id": "quiet",
+      "title": "Sessiz Sabah",
+      "text": "Yol açıldı. Soba hâlâ sıcaktı. Misafirler birer birer teşekkür edip ayrıldı.",
+      "rarity": "normal",
+      "title_az": "Sakit Səhər",
+      "text_az": "Yol açıldı. Soba hələ də isti idi. Qonaqlar bir-bir təşəkkür edib getdilər."
+    },
+    {
+      "id": "book",
+      "title": "Dolu Misafir Defteri",
+      "text": "Herkes çıkmadan önce defteri imzaladı. Bazıları kısa bir teşekkür yazdı. Son sayfa sabaha kadar doldu.",
+      "rarity": "normal",
+      "title_az": "Dolu Qonaq Dəftəri",
+      "text_az": "Hamı çıxmazdan əvvəl dəftəri imzaladı. Bəziləri qısa təşəkkür yazdı. Son səhifə səhərə qədər doldu."
+    },
+    {
+      "id": "doctor",
+      "title": "Doktorun Sözü",
+      "text": "Doktor hastanın ateşi düşene kadar yanında kaldı. Sabah çantasını topladı. Bir gün yeniden uğrayacağını söyledi.",
+      "rarity": "normal",
+      "title_az": "Həkimin Sözləri",
+      "text_az": "Həkim xəstənin qızdırması düşənə qədər yanında qaldı. Səhər çantasını yığdı. Bir gün yenidən baş çəkəcəyini dedi."
+    },
+    {
+      "id": "child",
+      "title": "Çocuğun Ailesi",
+      "text": "Kenan'ın ailesi sabah geldi. Paltodaki isim sonunda anlaşıldı. Çocuk kapıda bir kez daha el salladı.",
+      "rarity": "normal",
+      "title_az": "Uşağın Ailəsi",
+      "text_az": "Kenan'ın ailəsi səhər gəldi. Paltodakı ad nəhayət aydın oldu. Uşaq qapıda bir daha əl yellədi."
+    },
+    {
+      "id": "merchant",
+      "title": "Tüccarın Teklifi",
+      "text": "Tüccar sabah oteli satın almayı teklif etti. Teklifini bir kâğıda yazıp bıraktı. Kararı vermek için acele etmedin.",
+      "rarity": "normal",
+      "title_az": "Tacirin Təklifi",
+      "text_az": "Tacir səhər oteli almağı təklif etdi. Təklifini bir kağıza yazıb qoydu. Qərar verməyə tələsmədin."
+    },
+    {
+      "id": "radio",
+      "title": "Radyodaki Ses",
+      "text": "Teknisyen anteni düzeltti. Sabah yayını açıldığında spiker otelin adını söyledi. Bir süre herkes radyoyu dinledi.",
+      "rarity": "normal",
+      "title_az": "Radiodakı Səs",
+      "text_az": "Texnik antenanı düzəltdi. Səhər yayımı başlayanda diktor otelin adını dedi. Bir müddət hamı radioya qulaq asdı."
+    },
+    {
+      "id": "letter",
+      "title": "Hırsızın Mektubu",
+      "text": "Birkaç gün sonra bir mektup geldi. İçinde özür ve kaybolan gümüş vardı. Zarfın üzerinde gönderen adı yoktu.",
+      "rarity": "normal",
+      "title_az": "Oğrunun Məktubu",
+      "text_az": "Bir neçə gün sonra bir məktub gəldi. İçində üzrxahlıq və itmiş gümüş var idi. Zərfin üzərində göndərənin adı yox idi."
+    },
+    {
+      "id": "lamp",
+      "title": "Penceredeki Işık",
+      "text": "Penceredeki ışık bütün gece sönmedi. Uzaktaki yolcular o ışığı görerek otele ulaştı. Sabah pencereyi sen kapattın.",
+      "rarity": "normal",
+      "title_az": "Pəncərədəki İşıq",
+      "text_az": "Pəncərədəki işıq bütün gecə sönmədi. Uzaqdan gələn yolçular o işığı görüb otelə çatdılar. Səhər pəncərəni sən bağladın."
+    },
+    {
+      "id": "sign",
+      "title": "Tabela Yerine Döndü",
+      "text": "Rahim'in adını taşıyan tabelayı astın. Sonraki misafirler onu sordu. Sen de bildiğin kadarını anlattın.",
+      "rarity": "story",
+      "title_az": "Lövhə Yerinə Qayıtdı",
+      "text_az": "Rahim'in adını daşıyan lövhəni asdın. Sonrakı qonaqlar onu soruşdular. Sən də bildiyin qədərini danışdın."
+    },
+    {
+      "id": "secret",
+      "title": "Sessiz Söz",
+      "text": "Duyduklarını kendine sakladın. Otel yine sakin kaldı. Masadaki zil artık biraz farklı geliyordu.",
+      "rarity": "story",
+      "title_az": "Səssiz Söz",
+      "text_az": "Eşitdiklərini özünə saxladın. Otel yenə sakit qaldı. Masadakı zəng artıq bir az fərqli səslənirdi."
+    },
+    {
+      "id": "page",
+      "title": "Defterdeki Sayfa",
+      "text": "Rahim'in hikâyesini misafir defterinin ilk sayfasına yazdın. Gelenler sayfayı sırayla okudu. Defter masanın üzerinde kaldı.",
+      "rarity": "story",
+      "title_az": "Dəftərdəki Səhifə",
+      "text_az": "Rahim'in hekayəsini qonaq dəftərinin ilk səhifəsinə yazdın. Gələnlər səhifəni növbə ilə oxudular. Dəftər masanın üstündə qaldı."
+    },
+    {
+      "id": "saved",
+      "title": "Kurtarılan Çocuk",
+      "text": "O gece yola çıkarılan çocuklardan birinin sen olduğunu öğrendin. Paltodaki isim artık tanıdıktı. Masanın başına neden döndüğünü anladın.",
+      "rarity": "story",
+      "title_az": "Xilas Edilən Uşaq",
+      "text_az": "O gecə yola salınan uşaqlardan birinin sən olduğunu öyrəndin. Paltodakı ad artıq tanış idi. Masanın başına niyə qayıtdığını anladın."
+    },
+    {
+      "id": "storm",
+      "title": "Kış Fırtınası",
+      "text": "Kapıları köye açtın. Herkes sığacak bir yer buldu. Sabah pencereden dışarıdaki şarkıyı duydun.",
+      "rarity": "rare",
+      "title_az": "Qış Fırtınası",
+      "text_az": "Qapıları kəndə açdın. Hər kəs sığınacaq tapa bildi. Səhər pəncərədən bayırdakı mahnını eşitdin."
+    },
+    {
+      "id": "perfect",
+      "title": "Kusursuz Gece",
+      "text": "Herkes sabaha ulaştı.",
+      "rarity": "rare",
+      "title_az": "Qüsursuz Gecə",
+      "text_az": "Hamı səhərə sağ-salamat çıxdı."
+    }
+  ],
+  "radio_az": [
+    "Radio: Şimal yolunda qırmızı şərfli biri görülüb.",
+    "Radio: Keçid gecəyarısı bağlana bilər.",
+    "Radio: Köhnə yolun xəritəsi kənddə gizlədilib.",
+    "Radio: On il əvvəl də bu saatda qar yağmağa başlamışdı.",
+    "Radio: İlk maşın səhər kənddən yola düşəcək.",
+    "Radio: Bu xəbər köhnə ola bilər. Yolu yenidən yoxlayın."
+  ],
+  "questions_az": [
+    "Haradan gəlmisiniz?",
+    "Sizi kim göndərib?",
+    "Çantanızda nə var?"
+  ],
+  "storyPieces_az": [
+    "Lövhə dəyişmişdi, masadakı zəng isə olduğu kimi qalmışdı.",
+    "On il əvvəl də kənd yolu bağlanmışdı.",
+    "Çəkməcə boş idi. İçində nəyinsə açıq rəngli izi qalmışdı.",
+    "Radio köhnə hava proqnozunu oxudu və susdu.",
+    "Həmin gecə bir tibb bacısı qapıdan geri qaytarılmışdı.",
+    "Yeddinci otaq siyahıdan silinmişdi.",
+    "Qeyddə belə yazılmışdı: “Getmədi. Qalması istəndi.”",
+    "Rahim yolçuları köhnə cığırla çıxarmış, özü isə geri dönə bilməmişdi."
+  ]
+}

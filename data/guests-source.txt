@@ -1,0 +1,70 @@
+Elmira|HONEST|teacher|Son otobüsü kaçırdım. Sabah okula yetişmem gerekiyor.|Ayakkabıları ıslak; çantasında okul defterleri var.
+Tural|LIAR|photographer|Dağ fotoğrafları çekmeye çıktım. Makinem çantamda.|Çantasında fotoğraf makinesi yok; yalnızca ekranı çatlak bir telefon var.
+Hasan Dede|SPECIAL|shepherd|Sürüm aşağıdaki ağılda. Yol kapanmadan dönecektim.|Bastonu kırağılı; paltosunda saman kokusu var.
+Günel|LIAR|traveler|Kocamı bekliyorum. Bavul onun adına kayıtlı.|Bavul etiketindeki soyadı, söylediği soyadından farklı.
+Rauf|HONEST|driver|Aşağıdaki yol kaygan. Kamyonu dönemeçte bıraktım.|Ellerinde motor yağı, avucunda kamyon anahtarları var.
+Sessiz Yolcu|SPECIAL|silent|Bir gece, lütfen. Yalnızca bunu yazabildim.|Not, otelin on yıl önce kullandığı kâğıda yazılmış.
+Nigar|HONEST|student|Köpeğimi ararken yolu kaybettim. Köyde gören olmuş mu?|Elinde boş bir tasma var; eldivenlerine köpek tüyü yapışmış.
+Ferit|HONEST|driver|Geçit kapandı. Kiralık arabayla daha ileri gidemedim.|Araba anahtarında kiralama etiketi duruyor.
+Doktor Aysel|SPECIAL|doctor|Bir oda verirseniz hastalara bakabilirim. Yanımda biraz odun var.|Çantasında stetoskop ve yıpranmış bir hastane kartı var.
+Orhan|LIAR|inspector|Otel denetçisiyim. Kimliğim bu şehirden düzenlendi.|Kartvizitindeki telefon kodu başka bir şehre ait.
+Leyla ve Sevinç|SPECIAL|twins|Bir düğüne gidiyoruz. Damadın adı Cem, değil mi?|Kardeşlerden biri damadın adını biliyor; öbürü gözlerini kaçırıyor.
+Kenan|SPECIAL|child|Tek başımayım. Biraz ısınabilir miyim?|Paltosu ona çok büyük; yakasına bir yetişkinin adı dikilmiş.
+Vugar|THIEF|hiker|Kuzey patikasında kayboldum. Çantamda yalnızca harita var.|Yarım açık fermuarın arasından gümüş bir kaşık görünüyor.
+Zarife|SPECIAL|old_guest|Burada yıllar önce kalmıştım. Pencere yanındaki oda duruyor mu?|Sorduğu oda artık otelin planında yok.
+Medine|SPECIAL|coin|Oda için eski bir parayla ödeyebilir miyim? Rahim de böyle birini saklardı.|Paranın ortası delinmiş; üzerindeki tarih on yıl öncesi.
+Elçin|HONEST|chef|Kar bastırınca lokantayı erken kapattık. Aşağı inemedim.|Üzerinde soğan kokusu var; küçük bir bıçak çantası taşıyor.
+Aynur|SPECIAL|nurse|Buraya bir kez çağrılmıştım. Kapıdan geri gönderildim.|Kapının önünde duruyor; içeri davet edilmeden geçmiyor.
+Samir|LIAR|merchant|Kışlık palto satıyorum. Çantam numunelerle dolu.|Numune çantasında palto yerine yalnızca gazeteler var.
+Pervin|HONEST|family|Bebeğimle buraya otobüsle geldim. Eşim yolda bize yetişecek.|Bebek çantasındaki otobüs bileti bu akşama ait.
+Tofik|HONEST|musician|Bir oda karşılığında keman çalabilirim. Sabah yoluma giderim.|Parmakları nasırlı; kemanın bir teli gevşemiş.
+Reşat|THIEF|thief|Masanın çekmecesinde bırakılmış bir paket var mı diye bakacaktım.|Konuşurken yüzünüze değil, çekmecenin kilidine bakıyor.
+Gülnar|HONEST|radio|Radyonun sesini duydum. İsterseniz sinyale bakabilirim.|Küçük bir anten taşıyor; parmakları soğuktan çatlamış.
+İlgar|SPECIAL|police|Görevde değilim. Yine de bir sorun olursa yardımcı olurum.|Rozeti gerçek; çizmeleri üniforma çizmelerinden değil.
+Zafer|SICK|sick|Buzda kaydım. Biraz oturursam geçer.|Pantolonunun altında yeni sarılmış temiz bir bandaj var.
+Lale|LIAR|niece|Otel sahibinin yeğeniyim. Eski sahibin adını herkes biliyor.|Önceki sahibin adını sorunca cevap veremiyor.
+Anar|LIAR|accountant|Defterleri incelemek için yürüyerek gönderildim.|Karda yürüdüğünü söylese de paltosu tamamen kuru.
+Şehla|SPECIAL|traveler|Altı numaralı odadan ağlama sesi duydum.|Oda çizelgesine göre altı numara boş.
+Ramil ve Nazrin|HONEST|couple|Balayından dönüyoruz. Yol açılana kadar bekleyebilir miyiz?|Yüzükleri yeni; valizlerinin kurdele izleri duruyor.
+Mehman|HONEST|hiker|On kilometre yürüdüm. Biraz ısınmam lazım.|Çizmeleri sırılsıklam; konuşurken titriyor.
+Sabina|THIEF|thief|Annemi ziyarete gidiyorum. Adresi kuzey yolunun sonunda.|Kırmızı atkısı radyo tarifine uyuyor; verdiği adres yanlış.
+Fuat|SPECIAL|teacher_old|Otelin eski sahibini tanırdım. Burada uzun süre kalmadım.|Kimse söylemeden Rahim'in adını anıyor.
+Nurlan|HONEST|soldier|İzne çıktım ama treni kaçırdım. Sabah yeniden bakacağım.|Çantasındaki biletin tarihi bugün.
+Kamile|LIAR|traveler|Cüzdanımı kaybettim. Telefonum da yanımda değil.|Cebindeki yeni telefon bir kez çalıyor.
+Elnur|SPECIAL|courier|Otel için bir paket getirdim. Üzerindeki adres biraz tuhaf.|Paketin üzerinde 'Otelciye, on kış önce' yazıyor.
+Gülşen|HONEST|pregnant|Bir odaya ihtiyacım var. Sabah olunca kardeşimi ararım.|Duvara tutunarak yavaşça yürüyor; nefesini düzenlemeye çalışıyor.
+Ramin|SPECIAL|room7|Yedi numaralı odada kalabilir miyim? Yola bakan küçük bir penceresi vardı.|Otelin oda çizelgesinde yedi numara silinmiş.
+Natavan|HONEST|traveler|Yalnızca buradan geçiyorum. Sabah kızımın yanına gideceğim.|Ördüğü çocuk atkısının deseni yarım kalmış.
+Eldar|LIAR|priest|Köyün din görevlisiyim. Selamı bilirsiniz.|Köyde herkesin kullandığı selamı tanımıyor.
+Ayten|HONEST|teacher|Köy okuluna kitap götürüyorum. Yol kapandı.|Kitaplar ıslanmış; üzerlerinde okulun kurdeleleri var.
+Cavit|LIAR|traveler|İçerideki herkesi tanırım. Rauf ve Elmira ile birlikte geldim.|Rauf'un ve Elmira'nın adlarını önce yanlış söylüyor.
+Rüya|SPECIAL|key|Burada yarım kalmış bir işi bitirmem istendi.|Taşıdığı küçük pirinç anahtar şimdiki kapılara uymuyor.
+Orkun|HONEST|teen|Evden ayrıldım. Bir yatak bulamazsam dışarıda kalacağım.|Elleri çizilmiş; eski bir otobüs kartı gösteriyor.
+Şamil|HONEST|guide|Kuzey patikası gün doğunca açılır. Yolu biliyorum.|Pusulası yıpranmış; ipi düzgünce sarılmış.
+Lamiya|SPECIAL|journalist|Kış otelleri hakkında yazıyorum. Defterinize bakabilir miyim?|Defterindeki bir sayfada otelin eski adı yazıyor.
+Murad|SPECIAL|murad|Buraya daha önce gelmiştim. Bir gece kalmam mümkün mü?|Etrafına bakmadan eski palto askısına yöneliyor.
+Esmira|HONEST|baker|Sabah için ekmek getirdim. Köy yolu kapanınca kaldım.|Ekmek hâlâ sıcak; temiz bir beze sarılmış.
+Teymur|THIEF|thief|Biraz dinlenip hemen çıkacağım. Cebimde yalnızca anahtar var.|Gözü çıkışta; ağır cebinden gümüş bir köşe görünüyor.
+Aygün|SPECIAL|story|Dışarıdaki tabela ters duruyor. O geceden beri böyle.|Tabelanın ne zaman çevrildiğini söylemeden kapıya bakıyor.
+Nilüfer|SPECIAL|child|Dedem buraya gelmemi söyledi. Beni sabah almaya gelecek.|Elinde ortası delik, Medine'ninkine benzeyen bir para var.
+Şahin|HONEST|postman|Sabah postasını getirdim. Bir mektup özellikle bu otele ait.|Pulları arasında Rahim'e yazılmış pulsuz bir mektup var.
+Gülbahar|SPECIAL|story|Misafir defterini okuyabilir miyim? Eskiden burada kalmıştım.|Defterdeki eski adları sayfalara bakmadan söylüyor.
+Eyvaz|SPECIAL|story|Bir tabela getirdim. Sabah ışığında yerine asabiliriz.|Solmuş tahtanın üzerinde Rahim'in adı okunuyor.
+Fidan|SPECIAL|reveal|O gece buradan çıkarılan çocuklardan biriydim. Yolu hatırlıyorum.|Elinde Kenan'ın paltosundakine benzeyen bir yaka etiketi var.
+Mirza|SPECIAL|story|İçeri girmeyeceğim. Yalnızca teşekkür etmek istedim.|Karda bekliyor; eşiği geçmeyi istemiyor.
+Sevda|SPECIAL|key|Yıllar önce bir şey bırakmıştım. Çekmece hâlâ kilitli mi?|Boynundaki zincire küçük bir anahtar takılı.
+Rahim|SPECIAL|story|Kapıyı kapatayım mı? İçerisi sıcak kalsın.|Kapı kapanırken masadaki zil bir kez çalıyor.
+Deniz|HONEST|hiker|Eşim Derya'yla yürüyüşe çıktık. Onu dönemeçte kaybettim.|İpinin ucunda ikinci bir düğüm var; haritası ıslanmış.
+Derya|HONEST|hiker|Deniz'i arıyorum. Beraber geldiğimiz patika kapanmış.|İpindeki düğüm Deniz'in ipindekiyle aynı.
+Yasemin|HONEST|nurse|Gece vardiyasından çıkıyorum. Sağlık ocağının yolu kapandı.|Ceplerinde hastane eldiveni ve vardiya çizelgesi var.
+Cem|SPECIAL|guide|Eski patikayı biliyorum. Sabah geçit açılmazsa gösterebilirim.|Haritasında kullanılmayan bir yol kalemle işaretlenmiş.
+Selin|LIAR|journalist|Hiç kimseyle konuşmadım. Yalnızca bir oda arıyorum.|Defterinde içerideki iki misafirin ifadeleri yazılı.
+Meryem|SPECIAL|coin|Bu eski parayı kabul eder misiniz? Biri bana burada geçer demişti.|Paranın ortasında küçük bir delik var.
+Bora|LIAR|owner|Burası yıllar önce benim otelimdi. Masanın yeri hiç değişmedi.|Eski fotoğrafta masa duvarın diğer yanında duruyor.
+Kerem|THIEF|merchant|Odun satıyorum. Çuvalda yalnızca kuru kütükler var.|Çuvalın ağzında otelin damgasını taşıyan gümüş bir parça var.
+Arzu|HONEST|traveler|Kardeşim Ayten'e kitapları taşırken yardım ediyordum.|Ellerinde Ayten'in kitaplarını bağlayan kurdeleden bir parça var.
+Hakan|HONEST|driver|Rauf'un kamyonunu dönemeçte gördüm. Anahtarları ondadır.|Çizmesindeki yağ lekesi Rauf'un anlattığı kamyonunkine benziyor.
+Bahar|LIAR|traveler|Düğünün damadını tanırım. Adı Murat'tı.|Düğün davetiyesinde damadın adı Cem yazıyor.
+Perihan|SICK|sick|Biraz başım dönüyor. Yalnızca sıcak su içmem gerek.|Alnı sıcak; bileğindeki hastane bilekliği ıslanmış.
+Metin|HONEST|traveler|Hasan Dede'nin ağılına gidecektim. Kar yolumu kesti.|Cebinde saman var; Hasan'ın tarif ettiği yolu doğru anlatıyor.
+Yıldız|LIAR|traveler|Kuzey geçidi bütün akşam açıktı. Ferit yanılıyor.|Kiralık aracın yol fişinde geçidin kapandığı saat yazıyor.

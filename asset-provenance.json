@@ -1,27 +1,215 @@
 {
   "assets": {
+    "assets/son-yolcu/DejaVuSansMono.ttf": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/son_main.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:c805f9436dbc268644c1d9584f01a601a653e028e08fd74b9b949f6cf8304d88",
+      "shipped": true,
+      "size": 343140,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/son_main.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/son-yolcu/favicon.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "game-sharing.json",
+        "project.godot"
+      ],
+      "regions": [],
+      "sha256": "sha256:849367363dc55ef22125cc8e159f5899ebf515ebf29f8c55cd72b80bfee0df6a",
+      "shipped": true,
+      "size": 64508,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "game-sharing.json",
+        "project.godot"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/son-yolcu/hotel-blizzard.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/son_main.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:8f967e60ee438e419878af249f929168f846d1fbe682201146376d120a96c035",
+      "shipped": true,
+      "size": 547089,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/son_main.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/son-yolcu/hotel-dawn.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/son_main.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:a11d2ed41af805da1a5aee7e27f79655c78f8b54beda99ebd400c15f5a1b2bf6",
+      "shipped": true,
+      "size": 539376,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/son_main.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/son-yolcu/hotel-dusk.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/son_main.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:f2c8190cf2bd81453c58a6c95000c3cd14f9ae198ca9aa4b4b7fb38b3d189107",
+      "shipped": true,
+      "size": 505718,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/son_main.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/son-yolcu/hotel-midnight.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/son_main.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:bc9ae19271414b052f45eef653a7fe470024466e5010b1afe5086a165f875581",
+      "shipped": true,
+      "size": 502960,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/son_main.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/son-yolcu/icon-144.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:f561ab9635c3afa86d73387b3520518532206693a71a68fc8fd09fc188616427",
+      "shipped": true,
+      "size": 16749,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/son-yolcu/icon-180.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [],
+      "regions": [],
+      "sha256": "sha256:79fd923f4c4179bfc0413bb2d086d81b58a563881f9d31598695662d23f22a63",
+      "shipped": true,
+      "size": 24320,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [],
+      "used": false,
+      "usedBy": []
+    },
+    "assets/son-yolcu/share-cover.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "game-sharing.json"
+      ],
+      "regions": [],
+      "sha256": "sha256:d4f520b9e18502a3cca50cab7c528151fa32054157fe81f47ae1319776bf900f",
+      "shipped": true,
+      "size": 2970155,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "game-sharing.json"
+      ],
+      "used": true,
+      "usedBy": []
+    },
     "assets/template/characters/runner.png": {
       "declaredUseEvidence": [],
       "generator": {},
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "project.godot"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:c88485773d6ff9361e036f37d8ac76fb77b8c3f7c041c3f52c8dd222adc8cc21",
-      "shipped": null,
+      "shipped": true,
       "size": 68885,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "project.godot"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/characters/sentinel.png": {
@@ -33,12 +221,12 @@
       "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:0d9fb751bca5507ba14f7090573e6605a94753390a9e7c53bf2f590f0a24918d",
-      "shipped": null,
+      "shipped": true,
       "size": 64998,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
       "useEvidence": [],
       "used": false,
@@ -53,12 +241,12 @@
       "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:ec4ab7867e60fb483dd438459f587b478aac4c1e71ec4fe509ce74a18de34216",
-      "shipped": null,
+      "shipped": true,
       "size": 971282,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
       "useEvidence": [],
       "used": false,
@@ -73,12 +261,12 @@
       "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:4b6916024c69961fbfa7cdc929c68f547fea4561e61ebdb3405b3aba0efbd94d",
-      "shipped": null,
+      "shipped": true,
       "size": 58603,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
       "useEvidence": [],
       "used": false,
@@ -97,12 +285,12 @@
       ],
       "regions": [],
       "sha256": "sha256:b3976c5969c8b1afd81dc3e314b61d8ffe3f3f58cf40906443105d330e6e0bdf",
-      "shipped": null,
+      "shipped": true,
       "size": 23660,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
       "useEvidence": [
         "assets/template/fonts/ui_bold.tres",
@@ -128,7 +316,7 @@
       ],
       "regions": [],
       "sha256": "sha256:38f4c5f927f746b3dfa4c3a5d7edf0b7a3e828e27438418fa54f9e1565289412",
-      "shipped": null,
+      "shipped": true,
       "size": 1869368,
       "source": {
         "name": "NotoSansSC-VF.subset.woff2",
@@ -153,12 +341,12 @@
       "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:438fbf4582548e76b266a738f2c11bcbd5137978f2d2e2f3aaabd49df69186f2",
-      "shipped": null,
+      "shipped": true,
       "size": 41696,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
       "useEvidence": [],
       "used": false,
@@ -173,12 +361,12 @@
       "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:ffd7906f240f928e785d7c19a9e7a7b5dfab0d7483be5205dda3e4ba17ebe06a",
-      "shipped": null,
+      "shipped": true,
       "size": 50950,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
       "useEvidence": [],
       "used": false,
@@ -193,12 +381,12 @@
       "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:6e7354aa6510a462717218b09b9d784bb161b87878bff62ef4f2a9d03c053de7",
-      "shipped": null,
+      "shipped": true,
       "size": 53724,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
       "useEvidence": [],
       "used": false,
@@ -213,12 +401,12 @@
       "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:6a48a85886c0551c1af0df576b0225f0ec3ae86b326fd84fc614083fbfe2908b",
-      "shipped": null,
+      "shipped": true,
       "size": 37238,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
       "useEvidence": [],
       "used": false,
@@ -233,12 +421,12 @@
       "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:8cebf0cf730ca35c8c8697192ef78121c926442328a0725e0bd3e31701d64f13",
-      "shipped": null,
+      "shipped": true,
       "size": 39659,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
       "useEvidence": [],
       "used": false,
@@ -253,12 +441,12 @@
       "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:96874c000866b2e7503b40da73888afb918ae36e462f51488415157da52a8637",
-      "shipped": null,
+      "shipped": true,
       "size": 49145,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
       "useEvidence": [],
       "used": false,
@@ -270,22 +458,18 @@
       "inputs": [],
       "license": {},
       "origin": "template",
-      "referenceEvidence": [
-        "project.godot"
-      ],
+      "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:16dde3061f4e60802f8f0d1a6b875e72b6add05192237b03fef1fd313968a13a",
-      "shipped": null,
+      "shipped": true,
       "size": 473356,
       "source": {
         "starterId": "game-generic-v56"
       },
       "status": "present",
       "transformations": [],
-      "useEvidence": [
-        "project.godot"
-      ],
-      "used": true,
+      "useEvidence": [],
+      "used": false,
       "usedBy": []
     },
     "assets/template/ui/pause_glass.png": {
@@ -297,12 +481,12 @@
       "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:c88a4725838df85e72c7270865848f275b62c525c5679a2a8b7ecefb1af82d4b",
-      "shipped": null,
+      "shipped": true,
       "size": 115691,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
       "useEvidence": [],
       "used": false,
@@ -317,12 +501,12 @@
       "referenceEvidence": [],
       "regions": [],
       "sha256": "sha256:8860db07768f093d4effea10b51431f76a1552d4bc7fd4e57757f189c51f0429",
-      "shipped": null,
+      "shipped": true,
       "size": 155592,
       "source": {
         "starterId": "game-generic-v56"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
       "useEvidence": [],
       "used": false,
@@ -331,78 +515,150 @@
   },
   "discoveries": {},
   "downloads": {},
+  "export": {
+    "coverage": "verified",
+    "hostMedia": [
+      {
+        "contentMatches": [],
+        "path": "index.144x144.png",
+        "sha256": "sha256:2c16dc22ef4142844f4b7bc68ac59c69024c9336ff838cb7cacc117d17c10f96",
+        "size": 16786,
+        "sourcePaths": []
+      },
+      {
+        "contentMatches": [],
+        "path": "index.180x180.png",
+        "sha256": "sha256:47b74071df440a83a3bf565d5051e6b65e3581e3e8e65718b5b53dcfd26d426a",
+        "size": 24377,
+        "sourcePaths": []
+      },
+      {
+        "contentMatches": [],
+        "path": "index.512x512.png",
+        "sha256": "sha256:2adb3c18d3cd584091262c93030e77bb44b86eaf78e812bc31b69667c6ce471b",
+        "size": 70392,
+        "sourcePaths": []
+      },
+      {
+        "contentMatches": [],
+        "path": "index.apple-touch-icon.png",
+        "sha256": "sha256:bab7de4cbae2133962d8542977ff05607ba01d4bbf816bae6b35d3299b57f291",
+        "size": 23257,
+        "sourcePaths": []
+      },
+      {
+        "contentMatches": [],
+        "path": "index.icon.png",
+        "sha256": "sha256:2adb3c18d3cd584091262c93030e77bb44b86eaf78e812bc31b69667c6ce471b",
+        "size": 70392,
+        "sourcePaths": []
+      },
+      {
+        "contentMatches": [],
+        "path": "index.png",
+        "sha256": "sha256:3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+        "size": 21443,
+        "sourcePaths": []
+      },
+      {
+        "contentMatches": [],
+        "path": "share/849367363dc55ef22125cc8e159f5899ebf515ebf29f8c55cd72b80bfee0df6a.png",
+        "sha256": "sha256:849367363dc55ef22125cc8e159f5899ebf515ebf29f8c55cd72b80bfee0df6a",
+        "size": 64508,
+        "sourcePaths": [
+          "assets/son-yolcu/favicon.png"
+        ]
+      },
+      {
+        "contentMatches": [],
+        "path": "share/d4f520b9e18502a3cca50cab7c528151fa32054157fe81f47ae1319776bf900f.png",
+        "sha256": "sha256:d4f520b9e18502a3cca50cab7c528151fa32054157fe81f47ae1319776bf900f",
+        "size": 2970155,
+        "sourcePaths": [
+          "assets/son-yolcu/share-cover.png"
+        ]
+      }
+    ],
+    "pckSha256": "sha256:72270655c7cba21b1ca5e30212602bc0a29251192a67a4d6688d25db20299380",
+    "profile": "release",
+    "sourceFingerprint": "sha256:755f7985fc8e492451b77e54fabd46c874f2f59cb2639174a9b62b4f9d7a7843"
+  },
   "procedures": {},
   "summary": {
     "ancestry": {
       "ai": {
         "retained": 0,
-        "shipped": null,
+        "shipped": 0,
         "used": 0
       },
       "catalog": {
         "retained": 0,
-        "shipped": null,
+        "shipped": 0,
         "used": 0
       },
       "procedural": {
         "retained": 0,
-        "shipped": null,
+        "shipped": 0,
         "used": 0
       }
     },
     "derivatives": {
       "retained": 0,
-      "shipped": null,
+      "shipped": 0,
       "used": 0
     },
-    "exportedHostMedia": null,
+    "exportedHostMedia": {
+      "paths": 8,
+      "uniqueHashes": 7,
+      "unmatchedSourcePaths": 6
+    },
     "files": {
       "downloaded": 0,
-      "retained": 15,
-      "shipped": null,
-      "used": 4
+      "retained": 24,
+      "shipped": 24,
+      "used": 9
     },
     "origins": {
       "ai": {
         "retained": 0,
-        "shipped": null,
+        "shipped": 0,
         "used": 0
       },
       "catalog": {
         "retained": 0,
-        "shipped": null,
+        "shipped": 0,
         "used": 0
       },
       "derivative": {
         "retained": 0,
-        "shipped": null,
+        "shipped": 0,
         "used": 0
       },
       "external": {
         "retained": 0,
-        "shipped": null,
+        "shipped": 0,
         "used": 0
       },
       "procedural": {
         "retained": 0,
-        "shipped": null,
+        "shipped": 0,
         "used": 0
       },
       "template": {
         "retained": 15,
-        "shipped": null,
-        "used": 4
+        "shipped": 15,
+        "used": 2
       },
       "unknown": {
-        "retained": 0,
-        "shipped": null,
-        "used": 0
+        "retained": 9,
+        "shipped": 9,
+        "used": 7
       }
     },
     "packs": {
       "discovered": 0,
       "downloaded": 0,
-      "shipped": null,
+      "shipped": 0,
       "used": 0
     },
     "proceduralSystems": {
@@ -411,7 +667,7 @@
     },
     "spriteRegions": {
       "retained": 0,
-      "shipped": null,
+      "shipped": 0,
       "used": 0
     }
   },

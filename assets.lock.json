@@ -1,6 +1,14 @@
 {
   "version": 2,
   "groups": {
+    "game-identity": {
+      "name": "Game identity",
+      "order": 1
+    },
+    "hotel-atmosphere": {
+      "name": "Hotel & atmosphere",
+      "order": 0
+    },
     "template": {
       "name": "Template",
       "order": 0
@@ -8,6 +16,78 @@
   },
   "bundles": {},
   "assets": {
+    "assets/son-yolcu/DejaVuSansMono.ttf": {
+      "path": "/manus-storage/game/sha256/c805f9436dbc268644c1d9584f01a601a653e028e08fd74b9b949f6cf8304d88.ttf",
+      "sha256": "sha256:c805f9436dbc268644c1d9584f01a601a653e028e08fd74b9b949f6cf8304d88",
+      "size": 343140,
+      "assetType": "font",
+      "groupId": "game-identity",
+      "used": true
+    },
+    "assets/son-yolcu/favicon.png": {
+      "path": "/manus-storage/game/sha256/849367363dc55ef22125cc8e159f5899ebf515ebf29f8c55cd72b80bfee0df6a.png",
+      "sha256": "sha256:849367363dc55ef22125cc8e159f5899ebf515ebf29f8c55cd72b80bfee0df6a",
+      "size": 64508,
+      "assetType": "image",
+      "groupId": "game-identity",
+      "used": true
+    },
+    "assets/son-yolcu/hotel-blizzard.png": {
+      "path": "/manus-storage/game/sha256/8f967e60ee438e419878af249f929168f846d1fbe682201146376d120a96c035.png",
+      "sha256": "sha256:8f967e60ee438e419878af249f929168f846d1fbe682201146376d120a96c035",
+      "size": 547089,
+      "assetType": "image",
+      "groupId": "hotel-atmosphere",
+      "used": true
+    },
+    "assets/son-yolcu/hotel-dawn.png": {
+      "path": "/manus-storage/game/sha256/a11d2ed41af805da1a5aee7e27f79655c78f8b54beda99ebd400c15f5a1b2bf6.png",
+      "sha256": "sha256:a11d2ed41af805da1a5aee7e27f79655c78f8b54beda99ebd400c15f5a1b2bf6",
+      "size": 539376,
+      "assetType": "image",
+      "groupId": "hotel-atmosphere",
+      "used": true
+    },
+    "assets/son-yolcu/hotel-dusk.png": {
+      "path": "/manus-storage/game/sha256/f2c8190cf2bd81453c58a6c95000c3cd14f9ae198ca9aa4b4b7fb38b3d189107.png",
+      "sha256": "sha256:f2c8190cf2bd81453c58a6c95000c3cd14f9ae198ca9aa4b4b7fb38b3d189107",
+      "size": 505718,
+      "assetType": "image",
+      "groupId": "hotel-atmosphere",
+      "used": true
+    },
+    "assets/son-yolcu/hotel-midnight.png": {
+      "path": "/manus-storage/game/sha256/bc9ae19271414b052f45eef653a7fe470024466e5010b1afe5086a165f875581.png",
+      "sha256": "sha256:bc9ae19271414b052f45eef653a7fe470024466e5010b1afe5086a165f875581",
+      "size": 502960,
+      "assetType": "image",
+      "groupId": "hotel-atmosphere",
+      "used": true
+    },
+    "assets/son-yolcu/icon-144.png": {
+      "path": "/manus-storage/game/sha256/f561ab9635c3afa86d73387b3520518532206693a71a68fc8fd09fc188616427.png",
+      "sha256": "sha256:f561ab9635c3afa86d73387b3520518532206693a71a68fc8fd09fc188616427",
+      "size": 16749,
+      "assetType": "image",
+      "groupId": "game-identity",
+      "used": true
+    },
+    "assets/son-yolcu/icon-180.png": {
+      "path": "/manus-storage/game/sha256/79fd923f4c4179bfc0413bb2d086d81b58a563881f9d31598695662d23f22a63.png",
+      "sha256": "sha256:79fd923f4c4179bfc0413bb2d086d81b58a563881f9d31598695662d23f22a63",
+      "size": 24320,
+      "assetType": "image",
+      "groupId": "game-identity",
+      "used": true
+    },
+    "assets/son-yolcu/share-cover.png": {
+      "path": "/manus-storage/game/sha256/d4f520b9e18502a3cca50cab7c528151fa32054157fe81f47ae1319776bf900f.png",
+      "sha256": "sha256:d4f520b9e18502a3cca50cab7c528151fa32054157fe81f47ae1319776bf900f",
+      "size": 2970155,
+      "assetType": "image",
+      "groupId": "game-identity",
+      "used": true
+    },
     "assets/template/characters/runner.png": {
       "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/06/game-template/game-generic/2026.09.07-minimalist-v1/c88485773d6ff9361e036f37d8ac76fb77b8c3f7c041c3f52c8dd222adc8cc21/assets/characters/runner.png",
       "sha256": "sha256:c88485773d6ff9361e036f37d8ac76fb77b8c3f7c041c3f52c8dd222adc8cc21",
@@ -110,7 +190,7 @@
       "size": 473356,
       "assetType": "image",
       "groupId": "template",
-      "used": true
+      "used": false
     },
     "assets/template/ui/pause_glass.png": {
       "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/06/game-template/game-generic/2026.09.07-minimalist-v1/c88a4725838df85e72c7270865848f275b62c525c5679a2a8b7ecefb1af82d4b/assets/ui/pause_glass.png",
