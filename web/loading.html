@@ -53,6 +53,33 @@ html,body { background:#10141a; color:#c6c2b9; font-family:monospace; }
   </section>
   <script>
     (() => {
+      // Hosted releases redirect the engine and pack to content-addressed URLs.
+      // Also cache successful downloads under Godot's original local names so
+      // its service worker can find the complete game on a later offline launch.
+      const networkFetch = window.fetch.bind(window);
+      window.fetch = async (input, options) => {
+        const address = typeof input === 'string' || input instanceof URL ? String(input) : input.url;
+        const name = new URL(address, document.baseURI).pathname.split('/').pop();
+        if ((name !== 'index.wasm' && name !== 'index.pck') || !('caches' in window)) {
+          return networkFetch(input, options);
+        }
+        const localKey = new URL(name, document.baseURI).href;
+        try {
+          const response = await networkFetch(input, options);
+          if (response.status === 200 && 'serviceWorker' in navigator) {
+            const copy = response.clone();
+            navigator.serviceWorker.ready.then(async () => {
+              const names = (await caches.keys()).filter(key => key.startsWith('Son Yolcu-sw-cache-')).sort();
+              if (names.length) await (await caches.open(names[names.length - 1])).put(localKey, copy);
+            }).catch(() => {});
+          }
+          return response;
+        } catch (error) {
+          const cached = await caches.match(localKey);
+          if (cached) return cached;
+          throw error;
+        }
+      };
       const config = $GODOT_CONFIG;
       const threads = $GODOT_THREADS_ENABLED;
       const canvas = document.getElementById('canvas');
