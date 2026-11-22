@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1795358834|10603090';
+const CACHE_VERSION = '1795360717|10308035';
 /** @type {string} */
 const CACHE_PREFIX = 'Son Yolcu-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;

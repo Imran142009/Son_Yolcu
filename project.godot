@@ -27,6 +27,7 @@ config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://assets/son-yolcu/favicon.png"
 
 [autoload]
+ManusAuth="*res://scripts/manus_auth.gd"
 
 TuningBridge="*res://scripts/manus/preview/tuning_adapter.gd"
 

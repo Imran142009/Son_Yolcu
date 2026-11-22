@@ -2,6 +2,7 @@ extends Control
 
 const Logic = preload("res://scripts/game/son_logic.gd")
 const Save = preload("res://scripts/game/son_save.gd")
+const Cloud = preload("res://scripts/game/son_cloud.gd")
 const Portrait = preload("res://scripts/ui/guest_portrait.gd")
 const Sound = preload("res://scripts/game/son_sound.gd")
 const Snow = preload("res://scripts/ui/quiet_snow.gd")
@@ -19,6 +20,7 @@ const OUTLINE := Color(0.30,0.31,0.30,1)
 
 var logic = Logic.new()
 var store = Save.new()
+var cloud
 var screen := "menu"
 var page: Control
 var bg: TextureRect
@@ -60,12 +62,27 @@ func _ready() -> void:
 	for id in ["swipe", "knock", "wind", "fire"]:
 		sounds[id] = Sound.cue(id)
 	I18n.locale_changed.connect(_on_locale_changed)
+	if not store.data.has("locale"): store.data.locale = I18n.get_locale()
 	if not store.data.run.is_empty():
 		logic.state = store.data.run.duplicate(true)
+	cloud = Cloud.new()
+	add_child(cloud)
+	cloud.status_changed.connect(_cloud_status_changed)
+	cloud.save_restored.connect(_cloud_restored)
+	cloud.configure(store)
 	show_menu()
 
 func _on_locale_changed(_locale: String) -> void:
 	render()
+
+func _cloud_status_changed() -> void:
+	if screen == "settings": render()
+
+func _cloud_restored() -> void:
+	logic.state = store.data.get("run", {}).duplicate(true)
+	I18n.set_locale(str(store.data.get("locale", "tr")))
+	note_line = ""
+	show_menu()
 
 func t(key: String, replacements: Dictionary = {}) -> String:
 	return I18n.t(key, replacements)
@@ -710,18 +727,40 @@ func _settings() -> void:
 	var box = _base()
 	box.add_child(_button("←  " + t("back"), _settings_back, 14, HORIZONTAL_ALIGNMENT_LEFT))
 	box.add_child(_text(t("settings"), 21))
-	_gap(box, 26)
-	box.add_child(_button(t("sound") + "  ·  " + t("sound_on" if store.data.sound else "sound_off"), _toggle_sound))
-	box.add_child(_button(t("language") + "  ·  " + ("TÜRKÇE" if I18n.get_locale() == "tr" else "AZƏRBAYCANCA"), _toggle_language))
-	box.add_child(_button(t("timer") + "  ·  " + t("timer_off" if store.data.timerOff else "timer_on"), _toggle_timer))
-	_gap(box, 18)
+	var list = _scroller(box)
+	list.add_child(_button(t("sound") + "  ·  " + t("sound_on" if store.data.sound else "sound_off"), _toggle_sound))
+	list.add_child(_button(t("language") + "  ·  " + ("TÜRKÇE" if I18n.get_locale() == "tr" else "AZƏRBAYCANCA"), _toggle_language))
+	list.add_child(_button(t("timer") + "  ·  " + t("timer_off" if store.data.timerOff else "timer_on"), _toggle_timer))
+	_divider(list)
+	list.add_child(_text(t("account"), 15, MUTED))
+	list.add_child(_text(t("sync_" + cloud.status), 13, MUTED))
+	if cloud.user_id > 0:
+		if not cloud.user_name.is_empty(): list.add_child(_text(cloud.user_name, 13, MUTED))
+		if cloud.status == "conflict":
+			list.add_child(_text(t("sync_conflict_info"), 12, MUTED))
+			list.add_child(_button(t("sync_use_local"), cloud.choose_local, 13))
+			list.add_child(_button(t("sync_use_cloud"), cloud.choose_cloud, 13))
+		else:
+			list.add_child(_button(t("sync_now"), cloud.retry, 13))
+		list.add_child(_button(t("logout"), _logout, 13))
+	elif cloud.status == "logged_out":
+		list.add_child(_button(t("login"), _login, 13))
+	else:
+		list.add_child(_button(t("sync_retry"), cloud.retry, 13))
+	_divider(list)
 	if reset_armed:
-		box.add_child(_text(t("confirm_reset"), 14, MUTED))
-		box.add_child(_button(t("yes"), _reset))
-		box.add_child(_button(t("cancel"), func(): reset_armed = false; render()))
-	else: box.add_child(_button(t("reset"), func(): reset_armed = true; render(), 14))
-	_gap(box)
-	box.add_child(_text(t("save_info"), 12, MUTED))
+		list.add_child(_text(t("confirm_reset"), 14, MUTED))
+		list.add_child(_text(t("reset_cloud_info"), 12, MUTED))
+		list.add_child(_button(t("yes"), _reset))
+		list.add_child(_button(t("cancel"), func(): reset_armed = false; render()))
+	else: list.add_child(_button(t("reset"), func(): reset_armed = true; render(), 14))
+	list.add_child(_text(t("save_info"), 12, MUTED))
+
+func _login() -> void:
+	ManusAuth.login()
+
+func _logout() -> void:
+	ManusAuth.logout()
 
 func _settings_back() -> void:
 	screen = settings_return
@@ -734,6 +773,8 @@ func _toggle_sound() -> void:
 
 func _toggle_language() -> void:
 	I18n.toggle_locale()
+	store.data.locale = I18n.get_locale()
+	store.save()
 
 func _toggle_timer() -> void:
 	store.data.timerOff = not bool(store.data.timerOff)
@@ -742,6 +783,8 @@ func _toggle_timer() -> void:
 
 func _reset() -> void:
 	store.reset()
+	store.data.locale = I18n.get_locale()
+	store.save()
 	logic.state = {}
 	note_line = ""
 	show_menu()

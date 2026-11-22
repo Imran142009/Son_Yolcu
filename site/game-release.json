@@ -3,7 +3,7 @@
   "engineVersion": "4.7.2.stable.official.ed1daf0bf",
   "inputs": {
     "objectFormat": "sha1",
-    "tree": "4c247a157b0f8c82a5ef3d893de9755e518509a0",
+    "tree": "5f9e6b16fa56b7b35d5e68ad06a990dc21aa0bc6",
     "entries": [
       {
         "path": ".gitignore",
@@ -33,13 +33,13 @@
         "path": "SON-YOLCU-README.md",
         "type": "file",
         "mode": "100644",
-        "object": "d9ff796511ec427cd8a5391ed4b642869ef95423"
+        "object": "6db2bbacc069e98f2e94c2bab5bd699b561f5400"
       },
       {
         "path": "TODO.md",
         "type": "file",
         "mode": "100644",
-        "object": "8e401d1609f846e79ae978893638d4e43be90098"
+        "object": "c965a7f2980c51747109aecc3b3973b3f44a291c"
       },
       {
         "path": "assets.lock.json",
@@ -561,7 +561,7 @@
         "path": "localization/az.json",
         "type": "file",
         "mode": "100644",
-        "object": "c58d809aa5274e35630983ee7ae601c4021b466b"
+        "object": "562516bda7393f7facded1dd1f797a2a8d82a888"
       },
       {
         "path": "localization/en.json",
@@ -573,7 +573,7 @@
         "path": "localization/tr.json",
         "type": "file",
         "mode": "100644",
-        "object": "afff49588194fea2fb15da6b8815c2f23403cbb6"
+        "object": "c1f4dc087a7ed28592a2d034e495ad01c9d7cba1"
       },
       {
         "path": "localization/zh-CN.json",
@@ -591,13 +591,13 @@
         "path": "plan.md",
         "type": "file",
         "mode": "100644",
-        "object": "df9af2200f082178f33a931c2140b1eef091be52"
+        "object": "98f89423e16fcfa2808d1e6151ecfa11eb98f884"
       },
       {
         "path": "project.godot",
         "type": "file",
         "mode": "100644",
-        "object": "0bf09a958349c02335a8dd221d2a24ad13c2aaff"
+        "object": "b9c762b253ba47019b2aff68fdbe680bafe3bcbf"
       },
       {
         "path": "scenes/main.tscn",
@@ -660,6 +660,18 @@
         "object": "30d2edb43391ff4a6a6a46938d4f544043016de2"
       },
       {
+        "path": "scripts/game/son_cloud.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "4c2bc4bf27fde95d083900ecaa797271bbee6c02"
+      },
+      {
+        "path": "scripts/game/son_cloud.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "f802dd5c0f5f0491d26217c2362243b3a5abad7f"
+      },
+      {
         "path": "scripts/game/son_logic.gd",
         "type": "file",
         "mode": "100644",
@@ -675,7 +687,7 @@
         "path": "scripts/game/son_save.gd",
         "type": "file",
         "mode": "100644",
-        "object": "88535adc559638bcf287460ea090caadcb87db6d"
+        "object": "53a87c53f3e8df34a8bc052e3e5bad204211f930"
       },
       {
         "path": "scripts/game/son_save.gd.uid",
@@ -822,6 +834,18 @@
         "object": "e8df16f0d710276664f17ed53cc0b0518c1ac543"
       },
       {
+        "path": "scripts/manus_auth.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "af1fe8a1f55afa2e6e6ab078723d8ba1a9403d2b"
+      },
+      {
+        "path": "scripts/manus_auth.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "9d256beaac22fb4d67f0b4f09d0147f1e1ca3fdd"
+      },
+      {
         "path": "scripts/score/run_score_service.gd",
         "type": "file",
         "mode": "100644",
@@ -837,7 +861,7 @@
         "path": "scripts/son_main.gd",
         "type": "file",
         "mode": "100644",
-        "object": "a31756d373d59f2ed6cc196f0093ff14b54f8c3f"
+        "object": "ead3753803743c2b021048a1f27aecaa019abc29"
       },
       {
         "path": "scripts/son_main.gd.uid",
@@ -928,6 +952,78 @@
         "type": "file",
         "mode": "100644",
         "object": "d1c0191a2950f75818df9e3b42844bf91e7c4f5d"
+      },
+      {
+        "path": "server/0000_initial_users.sql",
+        "type": "file",
+        "mode": "100644",
+        "object": "731bf84b2da06adc3cd4a341c111c88bdd1b9f9f"
+      },
+      {
+        "path": "server/0001_player_saves.sql",
+        "type": "file",
+        "mode": "100644",
+        "object": "887d18af37d92fc35d37c38f2e294e6eaf1a9ce1"
+      },
+      {
+        "path": "server/Dockerfile",
+        "type": "file",
+        "mode": "100644",
+        "object": "e1aa988fc40e83c4c55add512904e86b9584cd09"
+      },
+      {
+        "path": "server/app.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "2f53c0475326d5da94800843f68ee1fef50758d1"
+      },
+      {
+        "path": "server/index.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "17e73059620fc24ace43b0c63a46a824051646e5"
+      },
+      {
+        "path": "server/migrate.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "d16bb5f88c9f6a4b3f1b01e3e30e2f94c76516a3"
+      },
+      {
+        "path": "server/package-lock.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "0f865cbbbd54290683f7f638ebe23fd4fe90b757"
+      },
+      {
+        "path": "server/package.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "4f8c82b9efe33585c36ff99de98fb658680e3e0a"
+      },
+      {
+        "path": "server/player-saves.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "d1058148ad0020e0e31684b54f4a49c468b690cf"
+      },
+      {
+        "path": "server/routers.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "13863e2c0717d27fa30f8bb1f6462d4efd4c954f"
+      },
+      {
+        "path": "server/test-player-saves.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "11429bfa544d6e5506da8cf2dd74aac8406ec23c"
+      },
+      {
+        "path": "server/webdev-adapter.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "45d31d1301ab505ab184d418b9ced3f2039238ce"
       },
       {
         "path": "shaders/arcade_filter.gdshader",
@@ -1125,12 +1221,12 @@
         "path": "web/loading.html",
         "type": "file",
         "mode": "100644",
-        "object": "f79948633d1cee9acd61de431894c8afcc0ba559"
+        "object": "db2206dac1f21c5e8eb52b96500b0c14bc53fa23"
       }
     ]
   },
   "build": {
-    "snapshotId": "sha256:b7cb93f3177f06c5a84b58a409af3fa5626458aa42320866a01c1c701f7bb7e4",
+    "snapshotId": "sha256:86287af4df77b18f5ac19c3fc5c22dbd4d8778cc5d4ad80c34d5eb264fa296bf",
     "toolchain": {
       "engineVersion": "4.7.2.stable.official.ed1daf0bf",
       "engineDigest": "sha256:3fcb80f4fe794e3859360eb641d8c41d8ffe2c2e54ba1981e55a76851d5ed1f4",
@@ -1143,7 +1239,7 @@
     "profile": "release",
     "export": {
       "profile": "release",
-      "snapshotId": "sha256:b7cb93f3177f06c5a84b58a409af3fa5626458aa42320866a01c1c701f7bb7e4",
+      "snapshotId": "sha256:86287af4df77b18f5ac19c3fc5c22dbd4d8778cc5d4ad80c34d5eb264fa296bf",
       "files": {
         "THIRD_PARTY_NOTICES.txt": "sha256:1fe93d564626a794d6d91652b3ac7698b78ca99250c63e3bcb074bda0b02e9b7",
         "index.144x144.png": "sha256:2c16dc22ef4142844f4b7bc68ac59c69024c9336ff838cb7cacc117d17c10f96",
@@ -1152,18 +1248,18 @@
         "index.apple-touch-icon.png": "sha256:bab7de4cbae2133962d8542977ff05607ba01d4bbf816bae6b35d3299b57f291",
         "index.audio.position.worklet.js": "sha256:be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
         "index.audio.worklet.js": "sha256:5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
-        "index.html": "sha256:2b26a79a4519c530112c6be1a0f60ed61387b99ab7903932b3ccf3742945f98c",
+        "index.html": "sha256:745f2e0068135fabcf443099bee902dc1db4badde6e18cb5656fd705010fd2c8",
         "index.icon.png": "sha256:2adb3c18d3cd584091262c93030e77bb44b86eaf78e812bc31b69667c6ce471b",
         "index.js": "sha256:cb28c2d8ffd8981888823f1b6d98cdec4e3e11adf209ad556c22878e6d51c63a",
         "index.manifest.json": "sha256:af8b658ae11dc88d04036f8a864b059ba9129b51af61d346dfba7c1966c37787",
         "index.offline.html": "sha256:b0a5d443e78f58717adac780bac91c1431bfa3b801c41f4707d507fb5ad2e47f",
-        "index.pck": "sha256:444d4022d0fe46e88cee78a663f4ec025c8b845417a0a13c6fb24bbc5c2079de",
+        "index.pck": "sha256:fa1a00c5cc7662112e5f63d6ce6fc0cefea3edea81c53b004366c7f1fae5c612",
         "index.png": "sha256:3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
-        "index.service.worker.js": "sha256:ef3e31359d881f1b8df2e689f5b88face071fcb07a62a0785220e4e915f30a7d",
+        "index.service.worker.js": "sha256:ca69089d5d117b30b10ff3429200dd9798ffa7c165ae0351085e2aaa7a60c735",
         "index.wasm": "sha256:fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
         "open-source-licenses.html": "sha256:18ff1d56c1a879b76309d880b6531e2f8b00f07731680fd3350db1f0951a658d"
       },
-      "digest": "sha256:419fc0a9a42e11c65c45401e82c4920628775258f4f6631ea8cb55154b42e406"
+      "digest": "sha256:f3122beda2e2a14b4f9c79ad113e6cb06db7d3cd4d6a621d97c6ee33fc59ff20"
     }
   },
   "artifacts": {
@@ -1172,8 +1268,8 @@
       "sha256": "sha256:fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
     },
     "pck": {
-      "path": "/manus-storage/game/sha256/444d4022d0fe46e88cee78a663f4ec025c8b845417a0a13c6fb24bbc5c2079de.pck",
-      "sha256": "sha256:444d4022d0fe46e88cee78a663f4ec025c8b845417a0a13c6fb24bbc5c2079de"
+      "path": "/manus-storage/game/sha256/fa1a00c5cc7662112e5f63d6ce6fc0cefea3edea81c53b004366c7f1fae5c612.pck",
+      "sha256": "sha256:fa1a00c5cc7662112e5f63d6ce6fc0cefea3edea81c53b004366c7f1fae5c612"
     }
   },
   "files": {
@@ -1185,13 +1281,13 @@
     "index.apple-touch-icon.png": "sha256:bab7de4cbae2133962d8542977ff05607ba01d4bbf816bae6b35d3299b57f291",
     "index.audio.position.worklet.js": "sha256:be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
     "index.audio.worklet.js": "sha256:5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
-    "index.html": "sha256:7a0304ac6350f991559a05e3ce9dc99c22122b3b8ede36de5a983e7ec2e56723",
+    "index.html": "sha256:9b6d7f9643f1e36e82c7f7be4e76d5bcb2dd0b6505bc5d2c2e93b58d81ad04e6",
     "index.icon.png": "sha256:2adb3c18d3cd584091262c93030e77bb44b86eaf78e812bc31b69667c6ce471b",
     "index.js": "sha256:cb28c2d8ffd8981888823f1b6d98cdec4e3e11adf209ad556c22878e6d51c63a",
     "index.manifest.json": "sha256:af8b658ae11dc88d04036f8a864b059ba9129b51af61d346dfba7c1966c37787",
     "index.offline.html": "sha256:b0a5d443e78f58717adac780bac91c1431bfa3b801c41f4707d507fb5ad2e47f",
     "index.png": "sha256:3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
-    "index.service.worker.js": "sha256:ef3e31359d881f1b8df2e689f5b88face071fcb07a62a0785220e4e915f30a7d",
+    "index.service.worker.js": "sha256:ca69089d5d117b30b10ff3429200dd9798ffa7c165ae0351085e2aaa7a60c735",
     "open-source-licenses.html": "sha256:18ff1d56c1a879b76309d880b6531e2f8b00f07731680fd3350db1f0951a658d",
     "share/849367363dc55ef22125cc8e159f5899ebf515ebf29f8c55cd72b80bfee0df6a.png": "sha256:849367363dc55ef22125cc8e159f5899ebf515ebf29f8c55cd72b80bfee0df6a",
     "share/d4f520b9e18502a3cca50cab7c528151fa32054157fe81f47ae1319776bf900f.png": "sha256:d4f520b9e18502a3cca50cab7c528151fa32054157fe81f47ae1319776bf900f"

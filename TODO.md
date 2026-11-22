@@ -1,12 +1,14 @@
 # Son Yolcu outcomes
 
-- [ ] Mobile portrait/offline browser game: Turkish default, Azerbaijani text, PWA, later Android packaging; no backend or paid runtime service.
+- [ ] Mobile portrait/offline-capable browser game: Turkish default, Azerbaijani text, PWA, later Android packaging. The original no-backend requirement was superseded by the user's request for a managed database and cross-device saves.
 - [ ] Full night: eight chapters with seven guests each, swipes and accessible alternatives; rooms, firewood, trust, chapter meters, clue magnifiers, peephole questions, random weather and meaningful failure/survival endings.
 - [ ] Content: at least 60 individually authored guests with hidden types, clues, appearance, chapter conditions and 15 connected guests; the first night follows the source's story chapters, later nights reshuffle eligible guests.
 - [ ] Narrative systems: 40 daily rules, radio lines, delayed chapter reports, notebook with notes/tags/clues/answers and Rahim's eight persistent discoveries, plus distinct chapter events and optional waiting timer.
 - [ ] Progression: 30 titled replayable nights with escalating difficulty; points, permanent upgrades, saved settings, unlocked-ending gallery, 20 ending definitions and the conditional ninth storm chapter.
 - [ ] Screens and style: minimal dark hotel scene, thin unnumbered meters, clock, text and two quiet bottom tools, inline event choices, simple character silhouettes, Turkish typewriter typography, settings, tutorial and no modals or bright visual effects.
 - [ ] Delivery: meaningful automated gameplay checks, offline build, mobile/touch support, README and a saved playable checkpoint; report outstanding placeholders and next improvements.
+- [ ] Managed account saves: provision the project database and server; use Manus sign-in and authenticated, player-owned database rows to persist progress, notes, current night, upgrades, endings and settings across devices.
+- [ ] Offline-first synchronization: keep local saving and offline play; reconcile saves on reconnect, prevent one player from accessing another player's save, and avoid silently overwriting conflicting local or cloud progress.
 
 ## Current implementation and open items
 
